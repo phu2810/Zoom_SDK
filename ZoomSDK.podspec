@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/zvs001/zoom-sdk-pods"
   s.license      = "MIT"
   s.author       = { "author" => "author@domain.cn" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
 
   s.source = { :http => 'https://github.com/zoom/zoom-sdk-ios/releases/download/v5.2.42037.1112/ios-mobilertc-all-5.2.42037.1112-clientlog.zip' }
 #   s.source_files  = "lib/**/*.{h,m}"
