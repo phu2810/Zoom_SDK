@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name         = "ZoomSDK"
+  s.name         = "ZoomSDK_iOS"
   s.version      = "5.2.42037.1112"
   s.summary      = "Pod for zoom-sdk-ios"
   s.description  = <<-DESC
