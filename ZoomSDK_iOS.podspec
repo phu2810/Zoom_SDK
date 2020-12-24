@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ZoomSDK_iOS"
-  s.version      = "5.2.42037.1112"
+  s.version      = "5.2.42037.1113"
   s.summary      = "Pod for zoom-sdk-ios"
   s.description  = <<-DESC
                   Pod for zoom-sdk-ios.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
 #  s.libraries = "sqlite3", "z.1.2.5", "c++"
 
-  s.vendored_frameworks =  "lib/MobileRTC.framework", "lib/MobileRTCScreenShare.framework"
+  s.vendored_frameworks =  "lib/MobileRTC.framework"#, "lib/MobileRTCScreenShare.framework"
   s.resource = 'lib/MobileRTCResources.bundle'
 end
 
